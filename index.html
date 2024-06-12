@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- <audio autoplay src="/audio/Hikari  Dearly Beloved Kingdom Hearts Orchestra.mp3" type="audio/mpeg"></audio> -->
+    <audio autoplay src="/audio/Hikari  Dearly Beloved Kingdom Hearts Orchestra.mp3" type="audio/mpeg"></audio>
     <div class="header">
         <img src="logo/Kingdom-Hearts-Logo.png" alt="Kingdom Hearts Logo">
         <p>Get up to date news on the Kingdom Hearts franchaise by signing up to this fake newsletter</p>
@@ -18,15 +18,15 @@
     <form action="" method="get">
 
             <label for="firstName"> FirstName: <span>Char range: 3-20 </span> </label> 
-            <input type="text" id="firstName" name="fullName" placeholder="Sora">
+            <input type="text" id="firstName" name="fullName" placeholder="Sora" minlength="3" maxlength="20">
 
             <label for="lastName"> Last Name: <span> (Optional)</span></label> 
-            <input type="text" id="lastName" name="lastName" optional placeholder="Takenouchi">
+            <input type="text" id="lastName" name="lastName" optional minlength="3" maxlength="20">
 
-            <label for="email"> E-Mail:<strong>*</strong> <span>example@gmail.com</span>
-            </label> <input type="email" id="email" name="email" required>
+            <label class="email" for="email"> E-Mail:<strong>*</strong> <span>example@gmail.com</span>
+            </label> <input class="email" type="email" id="email" name="email" required>
 
-
+            <input class="submit" type="submit" id="submit" name="submit">
 
 
     </form>

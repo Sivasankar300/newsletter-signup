@@ -29,6 +29,14 @@
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
   }
+
+  textarea:focus, input:focus{
+    outline: none; /* Removes the outline on form Inputs */
+}
+
+  input{
+    border: none;
+}
   /* CSS reset over */
 
   @font-face {
@@ -83,7 +91,11 @@ form{
 }
 input,label{
     width:80%;
-    margin:15px 30px 45px;
+    margin:15px 20px 45px;
+    border: none;
+    border-radius: 10px;
+
+    font-weight:lighter;
 }
 img{
     position: absolute;
@@ -102,6 +114,13 @@ img{
   margin:0px 30px 30px 0px;
   width:550px;
 }
+.email{
+  margin:15px
+}
+
+.submit{
+  border: 3px solid black;
+}
 
 span{
   font-weight: lighter;
@@ -112,8 +131,10 @@ span{
 input:invalid{
   border: 3px solid lightcoral;
 }
-input:focus{
-  border: 3px solid lightcyan;
+
+input:focus,.submit:focus{
+  border: 3px solid lightseagreen;
+  background-color: lightblue;
 }
 
 
