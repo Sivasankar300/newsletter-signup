@@ -31,10 +31,59 @@
   }
   /* CSS reset over */
 
+  @font-face {
+    font-family: 'khmenuregular';
+    src: url('font/khmenu-webfont.woff2') format('woff2'),
+         url('font/khmenu-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'khtitleregular';
+    src: url('font/khtitle-webfont.woff2') format('woff2'),
+         url('font/khtitle-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body{
     background: no-repeat url(__sora_and_kairi_kingdom_hearts_and_1_more_drawn_by_nomura_tetsuya__4a9a9205493568ed112c5dd7309ee34b.jpg);
     background-size: auto;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
 }
+
+form{
+
+    width:450px;
+    margin:30px;
+    padding:30px;
+
+    background-color: #F8F8F8;
+    border-radius: 3px;
+
+    font-family:khmenuregular;
+    font-size: 24px;
+
+}
+input,label{
+    width:80%;
+    margin:15px 30px 45px;
+}
+img{
+    position: absolute;
+    width:600px;
+    height:300px;
+    left:583px;
+}
+
 
 
 
