@@ -1,0 +1,40 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* My own CSS reset */
+
+  ul{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  }
+  /* CSS reset over */
+
+body{
+    background: no-repeat url(__sora_and_kairi_kingdom_hearts_and_1_more_drawn_by_nomura_tetsuya__4a9a9205493568ed112c5dd7309ee34b.jpg);
+    background-size: auto;
+}
+
+
+
