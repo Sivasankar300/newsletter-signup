@@ -63,9 +63,6 @@
   font-style: normal;
 }
 
-:root{
-}
-
 
 body{
     background: no-repeat url(background/__sora_and_kairi_kingdom_hearts_and_1_more_drawn_by_nomura_tetsuya__4a9a9205493568ed112c5dd7309ee34b.jpg);
@@ -135,6 +132,15 @@ input:invalid{
 input:focus,.submit:focus{
   border: 3px solid lightseagreen;
   background-color: lightblue;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(130,130,130,.5)
 }
 
 
