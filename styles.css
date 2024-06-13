@@ -65,7 +65,7 @@
 
 
 body{
-    background: no-repeat url(/background/Wallpaper.png);
+    background: no-repeat url(./background/Wallpaper.png);
     background-size: auto;
 
     display: flex;
