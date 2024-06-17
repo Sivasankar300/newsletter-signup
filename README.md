@@ -1,4 +1,4 @@
-## **A Newsletter Sign-up Project** made for the The Odin Project's Full-Stack WebDev course's applied learning method. 
+## **A Newsletter Sign-up Project** made as per The Odin Project's curriculum. 
 
 **Link to The Odin Project course**: https://www.theodinproject.com/
 
@@ -10,9 +10,9 @@ as the former can be easily bypassed to prevent invailds from being stored on th
 They also covered how forms can be made accessible for disabled persons through use of tags such as fieldset, legends, id and
 the proper structure to use these effectively in to assist them in the best way possible.
 
-**Live Preview:** [https://sivasankarh.github.io/calculator/](https://github.com/Sivasankar300/Newsletter-Sign-Up)
+**Live Preview:** https://sivasankarh.github.io/calculator/](https://github.com/Sivasankar300/Newsletter-Sign-Up
 
-**Lesson Link:** [https://www.theodinproject.com/lessons/foundations-calculator](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
+**Lesson Link:** https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form
 
 
 
