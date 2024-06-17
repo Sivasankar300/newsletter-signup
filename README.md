@@ -3,6 +3,9 @@
 **Link to The Odin Project course**: https://www.theodinproject.com/
 
 ### About this project:
+ These projects are to test one's knowledge of what they've learnt in the lessons so far to actually.
+ implement them in a project without step by step instructions.
+
 It is a dummy mock up Sign-up form focused on deepening one's knowledge of HTML-based form vaildation and Form styling.
 The prior lessons focuses on the reasons to use cilent side form vaildation alongside server-side vaildation
 as the former can be easily bypassed to prevent invailds from being stored on the database.
