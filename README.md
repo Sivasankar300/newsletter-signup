@@ -7,7 +7,7 @@ Themed after the Video game series Kingdom Hearts.
 
 [Live Preview](https://sivasankar300.github.io/newsletter-signup/)
 
-[Lesson Link:](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
+[Lesson Link](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-sign-up-form)
 
 
 
